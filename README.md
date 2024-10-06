@@ -41,6 +41,7 @@ Keycloak will be accessible at [http://localhost:8080](http://localhost:8080).
 - **Users**: Create users and assign them roles:
   - `test_viewer` (role: `viewer`)
   - `test_editor` (role: `editor`)
+- **Credentials**: Assign a password to each of the users.
 - **Client**: Create a client configuration for the React frontend:
   - **Client ID**: `my-website-frontend`
   - **Root URL** and **Web Origins**: `http://localhost:3000`
