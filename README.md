@@ -55,7 +55,7 @@ To run the React frontend:
 
 1. **Clone the Project**:
    ```bash
-   git https://github.com/JulianRotti/keycloak-react.git
+   git clone https://github.com/JulianRotti/keycloak-react.git
    cd keycloak-react
    ```
 
