@@ -30,6 +30,16 @@ export const logoutKeycloak = () => {
     return keycloak.logout({ redirectUri: `${window.location.origin}/` });
 };
 
+// Function to get the access token of the current authenticated user
+export const getAccessToken = () => {
+    if (keycloak.authenticated) {
+        return keycloak.token; // Return the access token
+    } else {
+        console.error('User is not authenticated.');
+        return null; // Or handle it according to your needs
+    }
+}
+
 // Check the keycloak login status
 export const checkKeycloakLogin = () => {    
     return keycloak.authenticated;
