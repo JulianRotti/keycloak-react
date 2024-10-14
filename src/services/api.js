@@ -1,0 +1,1 @@
+const API_URL = 'http://localhost:5000/api';  // Adjust if the API URL is different
